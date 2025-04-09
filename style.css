@@ -1,0 +1,127 @@
+body{
+    background-color: #F9FAD3;
+
+}
+
+span{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 92%;
+    height: 4.3em;
+    margin-top:3em;
+    margin-bottom:.6em;
+    font-size:1.2em;
+    padding-left:.4em;
+    cursor: pointer;
+    border-radius: .5em;
+    border:solid 2px #DE5344;
+    box-shadow: #DE5344 1.80px 1.80px 0px 1px;
+}
+
+
+
+.container{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+gap:.5em;
+margin-left:1em;
+margin-right:1em;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left:1em;
+    margin-right:1em;
+    gap:.5;
+    margin-top:1em;
+
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left:1em;
+    margin-right:1em;
+    margin-bottom:.5em;
+    gap:.5em;
+
+}
+
+
+.spatie{
+    /* width:6em; */
+    gap:.3;
+    margin-right:.5em;
+    margin-left:.5em;
+    color:#4d061f80;
+    grid-column:span 2;
+}
+
+button{
+    background-color: #ffffff;
+   /* width:3em; */
+   height:3em;
+    text-align: center;
+    text-decoration: none;
+    font-size:1.5em;
+    cursor: pointer;
+    border-radius: .5em;
+    color:#4D061F;
+    border:solid 2px #4D061F;
+    box-shadow: #4D061F 1.80px 1.80px 0px 0px;
+}
+
+button:active{
+    background-color: #e3b1ac;
+}
+
+.backspace{
+    grid-column:span 2;
+}
+
+.capslock {
+    grid-column:span 2;
+}
+
+
+
+.copy{
+    font-size:1.3em;
+    grid-column:span 3;
+    background-color: #f9c7c1;
+    
+}
+
+.nieuw{
+    font-size:1.3em;
+    grid-column:span 1;
+    /* background-color: #f9c7c1; */
+}
+
+.copyBerichtje {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left:20%;
+    background-color: #de5344c0;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left:1em;
+    margin-right:1em;
+    margin-top:1em;
+    gap:1em;
+}
