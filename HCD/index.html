@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+
+
+    <main>
+
+        <span>
+        <input type="textfield" id="textfield">
+        </span>
+
+        <br>
+
+        <div class="container3">    
+            <button class="capslock" id="capsLockButton" onclick="toggleCapsLock()">Caps Lock</button>
+            <button  class="backspace" id="backSpace" onclick="removeLastCharacter()">Backspace</button>
+            </div>
+
+
+        <div class="container">
+        <button value="a" onclick="addToTextField(this)">a</button>
+        <button value="b" onclick="addToTextField(this)">b</button>
+        <button value="c" onclick="addToTextField(this)">c</button>
+        <button value="d" onclick="addToTextField(this)">d</button>  
+
+        <button value="e" onclick="addToTextField(this)">e</button>
+        <button value="f" onclick="addToTextField(this)">f</button>
+        <button value="g" onclick="addToTextField(this)">g</button>
+        <button value="h" onclick="addToTextField(this)">h</button>  
+        
+        <button value="i" onclick="addToTextField(this)">i</button>
+        <button value="j" onclick="addToTextField(this)">j</button>
+        <button value="k" onclick="addToTextField(this)">k</button>
+        <button value="l" onclick="addToTextField(this)">l</button>  
+    
+        <button value="m" onclick="addToTextField(this)">m</button>
+        <button value="n" onclick="addToTextField(this)">n</button>
+        <button value="o" onclick="addToTextField(this)">o</button>
+        <button value="p" onclick="addToTextField(this)">p</button>  
+    
+        <button value="q" onclick="addToTextField(this)">q</button>
+        <button value="r" onclick="addToTextField(this)">r</button>
+        <button value="s" onclick="addToTextField(this)">s</button>
+        <button value="t" onclick="addToTextField(this)">t</button>  
+    
+        <button value="u" onclick="addToTextField(this)">u</button>
+        <button value="v" onclick="addToTextField(this)">v</button>
+        <button value="w" onclick="addToTextField(this)">w</button>
+        <button value="x" onclick="addToTextField(this)">x</button>  
+    </div>
+
+    </div>
+
+    <div class="container2">
+        <button value="y" onclick="addToTextField(this)">y</button>
+        <button class="spatie" value=" " onclick="addToTextField(this)">space</button>
+        <button value="z" onclick="addToTextField(this)">z</button>
+    
+    </div>
+
+    <div class="container4">
+
+        <button  class="copy" id="copyButton" onclick="copyToClipboard()">Copy</button>
+        <button class="nieuw" id="clearButton" onclick="clearTextField()">Clear</button>
+
+    </div>
+
+
+
+   
+
+
+
+
+    <div id="copyMessage" class="copyBerichtje">Tekst gekopieerd naar klembord!</div>
+
+       
+
+
+
+        
+
+    </main>
+    
+</body>
+</html>
