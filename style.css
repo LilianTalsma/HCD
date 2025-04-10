@@ -50,7 +50,7 @@ margin-right:1em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left:1em;
     margin-right:1em;
-    margin-bottom:.5em;
+    margin-bottom:-.5em;
     gap:.5em;
 
 }
@@ -140,7 +140,9 @@ footer div{
     scroll-snap-type: x mandatory; /* Scroll Snap inschakelen */
     -webkit-overflow-scrolling: touch; /* Soepel scrollen op mobiele apparaten */
     width: 100vw; /* Volledige breedte van het scherm */
-    height: 100%; /* Optioneel: volledige hoogte */
+    height: 100%;
+     /* Optioneel: volledige hoogte */
+
 }
 
 .container, .containercijfers {
