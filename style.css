@@ -50,7 +50,7 @@ margin-right:1em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left:1em;
     margin-right:1em;
-    margin-bottom:-1em;
+    margin-bottom:-.5em;
     gap:.5em;
 
 }
@@ -161,3 +161,18 @@ footer div{
     gap:.5em;
 }
 
+
+a{
+    text-decoration: none;
+    color: #717241;
+    font-size: 1.2em;
+}
+
+.buttonswitch{
+    margin-left:69%;
+    scale:70%;
+    background-color:#e7e9b3;
+    border:solid 2px #717241;
+    box-shadow: #717241 1.80px 1.80px 0px 0px;
+    color: #717241;
+}
