@@ -30,6 +30,8 @@ function showCopyMessage() {
     setTimeout(() => {
         message.style.display = 'none'; // Verberg de melding na 2 seconden
     }, 2000); // 2000 milliseconden = 2 seconden
+
+    copyButton.blur();
 }
 
 let isCapsLockOn = false; // Houd bij of Caps Lock aan of uit is
