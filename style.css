@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body{
     background-color: #F9FAD3;
     scale:.7em;
@@ -10,7 +17,7 @@ span{
     justify-content: center;
 }    
 
-input{
+textarea{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 92%;

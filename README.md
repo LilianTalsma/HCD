@@ -8,4 +8,4 @@ Bij HCD (human centered design) moesten wij gaan ontwerpen voor mensen met een b
 
 *WEEK 1*
 
-In week 1 ging ik vooral kijken naar wat mijn idee ging worden. In het begin had ik echt geen idee wat ik moest gaan doen. Uiteindelijk kwam ik op het idee om een toetsenbord te maken waarmee hij snel 
+In week 1 ging ik vooral kijken naar wat mijn idee ging worden. In het begin had ik echt geen idee wat ik moest gaan doen. Uiteindelijk kwam ik op het idee om een toetsenbord te maken waarmee hij snel tussen zijn app gesprek en de toetsenbord app kan switchen. Ik begon deze week nog niet perse met coderen meer met het ontwerp en hoe ik de functie eruit ging laten zien dat het op een leuke en duidelijke manier vormgegeven werd. 
