@@ -7,7 +7,7 @@
 
 body{
     background-color: #F9FAD3;
-    scale:.7em;
+    /* scale:.7em; */
     height:100dvh;
 
 }
@@ -40,6 +40,7 @@ textarea{
 gap:.5em;
 margin-left:1em;
 margin-right:1em;
+margin-top:1em;
 }
 
 .container2{
@@ -48,7 +49,7 @@ margin-right:1em;
     margin-left:1em;
     margin-right:1em;
     gap:.5;
-    /* margin-top:1em; */
+    margin-top:1em;
 
 }
 
@@ -141,42 +142,45 @@ footer div{
     background-color: #4D061F;
 }
 
-.scroll-container {
+/* .scroll-container {
     display: flex;
     overflow-x: scroll;
-    scroll-snap-type: x mandatory; /* Scroll Snap inschakelen */
-    -webkit-overflow-scrolling: touch; /* Soepel scrollen op mobiele apparaten */
-    width: 100vw; /* Volledige breedte van het scherm */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+    width: 100vw; 
     height: 100%;
-     /* Optioneel: volledige hoogte */
 
-}
 
-.container, .containercijfers {
-    flex: 0 0 100%; /* Zorg dat elke container 100% van de viewport breedte inneemt */
-    scroll-snap-align: center; /* Snapt naar het midden van het scherm */
+} */
+
+/* .container, .containercijfers {
+    flex: 0 0 100%; 
+    scroll-snap-align: center; 
     padding: 20px;
     box-sizing: border-box;
-}
+} */
 
 .containercijfers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left:1em;
     margin-right:1em;
-    /* margin-top:1em; */
+    margin-top:1em;
     gap:.5em;
-}
+ } 
 
 
 a{
     text-decoration: none;
     color: #717241;
     font-size: 1.2em;
+    padding:.5em;
+    
 }
 
 .buttonswitch{
-    margin-left:64%;
+    margin-left:63%;
+    margin-top:1em;
     scale:70%;
     background-color:#e7e9b3;
     border:solid 2px #717241;

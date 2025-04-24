@@ -29,7 +29,7 @@ function showCopyMessage() {
     message.style.display = 'block'; // Maak de melding zichtbaar
     setTimeout(() => {
         message.style.display = 'none'; // Verberg de melding na 2 seconden
-    }, 2000); // 2000 milliseconden = 2 seconden
+    }, 2000); // 2 seconden
 
     copyButton.blur();
 }
